@@ -30,13 +30,15 @@ class FruitsCounter extends Component {
                 src="https://assets.ccbp.in/frontend/react-js/mango-img.png"
                 alt="mango"
               />
-              <button
-                className="button"
-                type="button"
-                onClick={this.mangoCounter}
-              >
-                Eat Mango
-              </button>
+              <div className="button-container">
+                <button
+                  className="button"
+                  type="button"
+                  onClick={this.mangoCounter}
+                >
+                  Eat Mango
+                </button>
+              </div>
             </div>
             <div className="fruit">
               <img
@@ -44,13 +46,15 @@ class FruitsCounter extends Component {
                 src="https://assets.ccbp.in/frontend/react-js/banana-img.png"
                 alt="banana"
               />
-              <button
-                className="button"
-                type="button"
-                onClick={this.bananaCounter}
-              >
-                Eat Banana
-              </button>
+              <div className="button-container">
+                <button
+                  className="button"
+                  type="button"
+                  onClick={this.bananaCounter}
+                >
+                  Eat Banana
+                </button>
+              </div>
             </div>
             </div>
         </div>
