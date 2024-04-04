@@ -26,11 +26,9 @@
 .count {
   color: #ffd569;
 }
-.fruits-container {
+.fruits-control-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 80px;
+  flex-direction: column;
 }
 .fruit-image {
   width: 200px;
@@ -39,7 +37,9 @@
 .fruit {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 .button-container {
   text-align: center;
