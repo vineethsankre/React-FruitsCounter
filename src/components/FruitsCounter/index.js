@@ -17,8 +17,8 @@ class FruitsCounter extends Component {
   render() {
     const {mango, banana} = this.state
     return (
-      <div className="bg-container">
-        <div className="fruits-counter-container">
+      <div className="fruits-counter-container">
+        <div className="fruits-counter">
           <div className="content-container">
             <h1 className="heading">
               Bob ate <span className="count">{mango}</span> mangoes{' '}
