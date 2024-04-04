@@ -1,20 +1,18 @@
-.bg-container {
+.fruits-counter-container {
   background-color: #ffd569;
   height: 100vh;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.fruits-counter-container {
-  margin: 30px 40px;
+. fruits-counter{
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 16px;
   width: 90%;
-  height: 90%;
+  max-width: 1100px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
