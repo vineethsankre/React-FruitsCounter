@@ -9,9 +9,13 @@
 .fruits-counter-container {
   margin: 30px 40px;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 20px;
   width: 90%;
   height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading {
@@ -21,11 +25,31 @@
   font-weight: bold;
   text-align: center;
 }
+.count {
+  color: #ffd569;
+}
 .fruits-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 80px;
 }
-.fruit-image{
+.fruit-image {
   width: 300px;
+  margin-bottom: 50px;
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 16px;
 }
