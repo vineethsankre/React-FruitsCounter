@@ -34,6 +34,12 @@
   width: 200px;
   height: 175px;
 }
+@media screen and (min-width: 992px) {
+  .fruit-image {
+    width: 296px;
+    height: 275px;
+  }
+}
 .fruit {
   display: flex;
   flex-direction: column;
