@@ -19,42 +19,40 @@ class FruitsCounter extends Component {
     return (
       <div className="fruits-counter-container">
         <div className="fruits-counter">
-          <div className="content-container">
-            <h1 className="heading">
-              Bob ate <span className="count">{mango}</span> mangoes{' '}
-              <span className="count">{banana}</span> bananas
-            </h1>
-            <div className="fruits-container">
-              <div className="fruit">
-                <img
-                  className="fruit-image"
-                  src="https://assets.ccbp.in/frontend/react-js/mango-img.png"
-                  alt="mango"
-                />
-                <button
-                  className="button"
-                  type="button"
-                  onClick={this.mangoCounter}
-                >
-                  Eat Mango
-                </button>
-              </div>
-              <div className="fruit">
-                <img
-                  className="fruit-image"
-                  src="https://assets.ccbp.in/frontend/react-js/banana-img.png"
-                  alt="banana"
-                />
-                <button
-                  className="button"
-                  type="button"
-                  onClick={this.bananaCounter}
-                >
-                  Eat Banana
-                </button>
-              </div>
+          <h1 className="heading">
+            Bob ate <span className="count">{mango}</span> mangoes{' '}
+            <span className="count">{banana}</span> bananas
+          </h1>
+          <div className="fruits-container">
+            <div className="fruit">
+              <img
+                className="fruit-image"
+                src="https://assets.ccbp.in/frontend/react-js/mango-img.png"
+                alt="mango"
+              />
+              <button
+                className="button"
+                type="button"
+                onClick={this.mangoCounter}
+              >
+                Eat Mango
+              </button>
             </div>
-          </div>
+            <div className="fruit">
+              <img
+                className="fruit-image"
+                src="https://assets.ccbp.in/frontend/react-js/banana-img.png"
+                alt="banana"
+              />
+              <button
+                className="button"
+                type="button"
+                onClick={this.bananaCounter}
+              >
+                Eat Banana
+              </button>
+            </div>
+            </div>
         </div>
       </div>
     )
