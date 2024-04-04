@@ -18,12 +18,12 @@ class FruitsCounter extends Component {
     const {mango, banana} = this.state
     return (
       <div className="fruits-counter-container">
-        <div className="fruits-control-counter">
+        <div className="fruits-counter">
           <h1 className="heading">
             Bob ate <span className="count">{mango}</span> mangoes{' '}
             <span className="count">{banana}</span> bananas
           </h1>
-          <div className="fruits-container">
+          <div className="fruits-control-container">
             <div className="fruit">
               <img
                 className="fruit-image"
