@@ -1,4 +1,4 @@
-In this app **Fruits Counter**, the page contains the basic functionality of counting the number of mangoes and bananas.
+In this app **Fruits Counter**, the page provides a simple functionality: counting the number of mangoes and bananas.
 
 ### Preview:
 
