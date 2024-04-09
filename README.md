@@ -8,15 +8,6 @@ In this project, let's build a **Fruits Counter** by applying the concepts we ha
 </div>
 <br/>
 
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/fruits-counter-sm-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/fruits-counter-lg-output.png)
-
-</details>
 
 ### Set Up Instructions
 
